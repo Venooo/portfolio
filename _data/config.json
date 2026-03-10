@@ -1,0 +1,165 @@
+{
+  "name":     "Mohamed Ismail",
+  "initials": "MI",
+  "title":    "Product Designer & Design Strategist",
+  "taglines": ["Design Strategist", "AI-Augmented UX", "Behavioral Designer", "Systems Thinker"],
+  "location": "Alexandria, Egypt",
+  "available": true,
+  "bio": "Strategic product designer specializing in AI-augmented workflows and behavioral design. Proven track record driving measurable business impact across Egypt and Saudi Arabia markets. I design systems that scale—from interaction layer to business outcomes.",
+
+  "email":    "mohamedyosai@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mohamedismail-ux",
+  "behance":  "https://www.behance.net/9a8abe2b",
+
+  "colors": {
+    "primary":   "#7c3aed",
+    "secondary": "#ec4899",
+    "accent":    "#3b82f6",
+    "blob1": "rgba(167,139,250,0.38)",
+    "blob2": "rgba(236,72,153,0.30)",
+    "blob3": "rgba(59,130,246,0.26)",
+    "blob4": "rgba(251,191,36,0.22)",
+    "blob5": "rgba(16,185,129,0.20)"
+  },
+
+  "stats": [
+    { "number": 24, "suffix": "+", "label": "Products Designed" },
+    { "number": 2,  "suffix": "+", "label": "Years Impact" },
+    { "number": 5,  "suffix": "",  "label": "Scale Markets" },
+    { "number": 32, "suffix": "%", "label": "Avg Conversion Lift" }
+  ],
+
+  "skills": [
+    { "name": "Figma & Design Systems",      "level": 95, "color": "#7c3aed" },
+    { "name": "AI-Augmented Design",         "level": 88, "color": "#ec4899" },
+    { "name": "Behavioral Design",           "level": 91, "color": "#3b82f6" },
+    { "name": "User Research & Analytics",   "level": 93, "color": "#10b981" },
+    { "name": "Design Systems Architecture", "level": 85, "color": "#f59e0b" },
+    { "name": "Interaction & Motion Design", "level": 87, "color": "#7c3aed" },
+    { "name": "Data-Informed UX",            "level": 90, "color": "#ec4899" },
+    { "name": "Usability Testing",           "level": 80, "color": "#3b82f6" },
+    { "name": "Product Strategy",            "level": 88, "color": "#10b981" },
+    { "name": "Cross-Platform Design",       "level": 86, "color": "#f59e0b" }
+  ],
+
+  "experience": [
+    {
+      "company":  "Homzmart",
+      "role":     "Product Designer",
+      "period":   "Dec 2024 – Present",
+      "location": "Cairo, Egypt",
+      "color":    "#7c3aed",
+      "desc":     "Driving product strategy for Egypt's largest home décor platform serving 2M+ users. Implemented AI-augmented product recommendations lifting mobile conversion by 28%. Led design system architecture reducing design debt by 40%."
+    },
+    {
+      "company":  "Cradis",
+      "role":     "UX/UI Designer",
+      "period":   "May 2024 – Aug 2024",
+      "location": "Riyadh, Saudi Arabia",
+      "color":    "#ec4899",
+      "desc":     "Designed end-to-end platform UX for Saudi market. Reduced user onboarding drop-off by 41% through behavioral design patterns. Delivered 12+ high-fidelity prototypes validated through user testing."
+    },
+    {
+      "company":  "Developer Career",
+      "role":     "UX/UI Designer",
+      "period":   "Oct 2023 – Dec 2023",
+      "location": "Alexandria, Egypt",
+      "color":    "#3b82f6",
+      "desc":     "Redesigned learning platform UI improving course completion rates by 19%. Created modular design system enabling 60% faster design iteration. Collaborated with product team on data-driven feature prioritization."
+    },
+    {
+      "company":  "Route",
+      "role":     "UI/UX Designer",
+      "period":   "Jun 2023 – Oct 2023",
+      "location": "Egypt",
+      "color":    "#10b981",
+      "desc":     "Crafted mobile-first interfaces for logistics platform. Reduced checkout abandonment by 24% through streamlined UX and behavioral nudges. Established consistent visual language across 8+ product flows."
+    }
+  ],
+
+  "projects": [
+    {
+      "title":    "Homzmart App Redesign",
+      "company":  "Homzmart",
+      "category": "Mobile · E-Commerce",
+      "tags":     ["Figma", "User Research", "iOS"],
+      "desc":     "Complete mobile redesign for Egypt's largest home décor marketplace. Lifted mobile conversion by 28% through behavioral design optimization. Implemented AI-powered product discovery increasing AOV by 18%.",
+      "color":    "#7c3aed",
+      "year":     "2024–25",
+      "img":      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+    },
+    {
+      "title":    "Cradis Platform UX",
+      "company":  "Cradis",
+      "category": "Web · SaaS",
+      "tags":     ["UX Design", "Prototyping", "Research"],
+      "desc":     "End-to-end platform redesign reducing onboarding drop-off by 41%. Conducted 16 user interviews informing interaction patterns. Delivered design system enabling 12-week faster release cycle.",
+      "color":    "#ec4899",
+      "year":     "2024",
+      "img":      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+    },
+    {
+      "title":    "Learning Platform UI",
+      "company":  "Developer Career",
+      "category": "Web · EdTech",
+      "tags":     ["UI Design", "Design System", "Web"],
+      "desc":     "Redesigned educational platform interface increasing course completion by 19%. Built modular component library reducing design time by 60%. A/B tested 8 variations of course path layouts.",
+      "color":    "#3b82f6",
+      "year":     "2023",
+      "img":      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80"
+    },
+    {
+      "title":    "Route Product Design",
+      "company":  "Route",
+      "category": "Mobile · Product",
+      "tags":     ["UI/UX", "Mobile", "Figma"],
+      "desc":     "Mobile product redesign reducing checkout abandonment by 24%. Implemented behavioral nudges and progressive disclosure patterns. Established design system unifying 8+ product flows.",
+      "color":    "#10b981",
+      "year":     "2023",
+      "img":      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80"
+    }
+  ],
+
+  "certifications": [
+    { "name": "Enterprise Design Thinking Practitioner", "issuer": "IBM",                 "color": "#f59e0b" },
+    { "name": "Google AI Essentials",                    "issuer": "Google",               "color": "#ec4899" },
+    { "name": "Foundations of UX Design",               "issuer": "Google / Coursera",    "color": "#3b82f6" },
+    { "name": "UX/UI Design Diploma",                   "issuer": "Professional Diploma", "color": "#10b981" },
+    { "name": "UI/UX Practical Camp",                   "issuer": "Intensive Training",   "color": "#7c3aed" }
+  ],
+
+  "testimonials": [
+    {
+      "name":    "Ahmed El-Sayed",
+      "role":    "Product Manager",
+      "company": "Homzmart",
+      "photo":   "AE",
+      "color":   "#7c3aed",
+      "quote":   "Mohamed elevated our design thinking to the next level. His AI-augmented approach to product recommendations drove a 28% conversion lift. Strategic, data-driven, and deeply user-centric."
+    },
+    {
+      "name":    "Sara Hassan",
+      "role":    "CEO",
+      "company": "Cradis",
+      "photo":   "SH",
+      "color":   "#ec4899",
+      "quote":   "Mohamed's behavioral design expertise reduced our onboarding drop-off by 41%. He doesn't just make things look good—he makes them work. A true design strategist."
+    },
+    {
+      "name":    "Omar Khalil",
+      "role":    "Tech Lead",
+      "company": "Developer Career",
+      "photo":   "OK",
+      "color":   "#3b82f6",
+      "quote":   "Mohamed transformed our platform with his data-driven design approach. He increased course completion by 19% and built a design system that accelerated our entire roadmap."
+    },
+    {
+      "name":    "Nada Fouad",
+      "role":    "Design Lead",
+      "company": "Route",
+      "photo":   "NF",
+      "color":   "#10b981",
+      "quote":   "Strategic, creative, and results-obsessed. Mohamed delivered a 24% reduction in checkout abandonment through behavioral design. He raised the bar for what we expect from design."
+    }
+  ]
+}

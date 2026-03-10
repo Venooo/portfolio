@@ -1,0 +1,107 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+
+      # ── GENERAL INFO ──────────────────────────────────────────
+      - name: "general"
+        label: "👤 General Info"
+        file: "_data/config.json"
+        format: json
+        fields:
+          - { label: "Full Name",      name: "name",      widget: "string" }
+          - { label: "Initials",       name: "initials",  widget: "string", hint: "2 letters shown on logo & avatar" }
+          - { label: "Job Title",      name: "title",     widget: "string" }
+          - { label: "Location",       name: "location",  widget: "string" }
+          - { label: "Available for work", name: "available", widget: "boolean" }
+          - { label: "Bio",            name: "bio",       widget: "text" }
+          - { label: "Email",          name: "email",     widget: "string" }
+          - { label: "LinkedIn URL",   name: "linkedin",  widget: "string" }
+          - { label: "Behance URL",    name: "behance",   widget: "string" }
+
+          - label: "Rotating Taglines"
+            name: "taglines"
+            widget: "list"
+            field: { label: "Tagline", name: "tagline", widget: "string" }
+
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Number",  name: "number", widget: "number" }
+              - { label: "Suffix (e.g. + or %)", name: "suffix", widget: "string", required: false }
+              - { label: "Label",   name: "label",  widget: "string" }
+
+          - label: "Brand Colors"
+            name: "colors"
+            widget: "object"
+            fields:
+              - { label: "Primary Color",   name: "primary",   widget: "color" }
+              - { label: "Secondary Color", name: "secondary", widget: "color" }
+              - { label: "Accent Color",    name: "accent",    widget: "color" }
+
+          # ── SKILLS ────────────────────────────────────────────
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Skill Name",       name: "name",  widget: "string" }
+              - { label: "Level (0–100)",    name: "level", widget: "number", value_type: "int", min: 0, max: 100 }
+              - { label: "Bar Color",        name: "color", widget: "color" }
+
+          # ── EXPERIENCE ────────────────────────────────────────
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            fields:
+              - { label: "Company",     name: "company",  widget: "string" }
+              - { label: "Role",        name: "role",     widget: "string" }
+              - { label: "Period",      name: "period",   widget: "string", hint: "e.g. Jan 2024 – Present" }
+              - { label: "Location",    name: "location", widget: "string" }
+              - { label: "Card Color",  name: "color",    widget: "color" }
+              - { label: "Description", name: "desc",     widget: "text" }
+
+          # ── PROJECTS ──────────────────────────────────────────
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title",       name: "title",    widget: "string" }
+              - { label: "Company",     name: "company",  widget: "string" }
+              - { label: "Category",    name: "category", widget: "string", hint: "e.g. Mobile · E-Commerce" }
+              - { label: "Year",        name: "year",     widget: "string" }
+              - { label: "Description", name: "desc",     widget: "text" }
+              - { label: "Card Color",  name: "color",    widget: "color" }
+              - { label: "Cover Image URL", name: "img",  widget: "string", hint: "Paste an image URL or upload to /images/" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+
+          # ── CERTIFICATIONS ────────────────────────────────────
+          - label: "Certifications"
+            name: "certifications"
+            widget: "list"
+            fields:
+              - { label: "Certificate Name", name: "name",   widget: "string" }
+              - { label: "Issuer",           name: "issuer", widget: "string" }
+              - { label: "Card Color",       name: "color",  widget: "color" }
+
+          # ── TESTIMONIALS ──────────────────────────────────────
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Full Name",         name: "name",    widget: "string" }
+              - { label: "Role",              name: "role",    widget: "string" }
+              - { label: "Company",           name: "company", widget: "string" }
+              - { label: "Photo (initials or image URL)", name: "photo", widget: "string", hint: "Use 2 initials like 'AE' or paste a photo URL" }
+              - { label: "Avatar Color",      name: "color",   widget: "color" }
+              - { label: "Quote",             name: "quote",   widget: "text" }
